@@ -2,7 +2,6 @@
     box-sizing:border-box;
     padding:0;
     margin:0;
-    border: 1px solid gold; 
     font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -25,6 +24,7 @@ a:link, a:visited{
 .header-top{
     display: flex;
     flex:1;
+    padding: 10px;
     max-width: 1400px;
 }
 
@@ -37,7 +37,7 @@ a:link, a:visited{
     color: white;
 }
 
-button{
+.cv{
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: blue;
@@ -63,6 +63,7 @@ button{
 
 .hero-left{
     max-width: 850px;
+    padding: 10px;
 }
 
 #brain{
@@ -75,36 +76,114 @@ button{
 /* end hero */
 
 /*content*/
-.container-item{
-    display:flex;
-    justify-content: center;
-    margin: 100px auto;
+h2{
+    margin: 80px;
+    text-align: center;
+    font-size: 40px;
 }
-
 .project-item{
     display:flex;
-    gap: 100px;
+    gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0px auto 100px auto;
 }
 
 .item{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 50px 0px;
 }
 
 .item-photo{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 .description{
     display:flex;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 strong{
     text-align: center;
+}
+
+.container-quote{
+    display:flex;
+    padding: 100px;
+    background-color: rgb(196, 194, 194);
+    font-size: 20px;
+    justify-content: center;
+}
+
+#quote{
+    padding: 10px;
+    width: 1400px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#quoter{
+    margin-top: 20px;
+    text-align:end;
+}
+/*end content*/
+
+/*call to action*/
+
+.container-contact{
+    display:flex;
+    justify-content: center;
+}
+
+#contact-item{
+    display:flex;
+    background-color: blue;
+    padding: 20px 50px;
+    margin: 120px;
+    width:75vw;
+    border-radius: 5px;
+}
+
+#contact-me{
+    display:flex;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+#contact{
+    display:flex;
+    flex-grow:1;
+    background-color: blue;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 20px;
+}
+
+.contact-button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+}
+
+.container-footer{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 20px;
 }
