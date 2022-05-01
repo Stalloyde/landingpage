@@ -2,13 +2,13 @@
     box-sizing:border-box;
     padding:0;
     margin:0;
-    color: white;
     border: 1px solid gold; 
     font-family:Arial, Helvetica, sans-serif;
 }
 
 a:link, a:visited{
     text-decoration: none;
+    color: white;
 }
 
 /*top header*/
@@ -34,6 +34,7 @@ a:link, a:visited{
     justify-content: flex-end;
     gap: 100px;
     padding-right: 30px;
+    color: white;
 }
 
 button{
@@ -45,6 +46,7 @@ button{
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
+    color: white;
     padding: 5px;
 }
 /*end top header*/
@@ -99,6 +101,10 @@ button{
 
 .description{
     display:flex;
-    color: black;
+    flex-direction: column;
     width: 350px;
+}
+
+strong{
+    text-align: center;
 }
